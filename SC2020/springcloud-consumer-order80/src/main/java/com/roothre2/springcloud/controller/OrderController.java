@@ -16,7 +16,8 @@ import org.springframework.web.client.RestTemplate;
 @Slf4j
 public class OrderController {
 
-    public static final String PAYMENT_PATH = "http://www.roothre2.com:8001/payment/provider";
+    //public static final String PAYMENT_PATH = "http://www.roothre2.com:8001/payment/provider";
+    public static final String PAYMENT_PATH = "http://springcloud-payment-service/payment/provider";
 
     @Autowired
     private RestTemplate restTemplate;

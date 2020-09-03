@@ -17,11 +17,11 @@
         <!--    <groupId>org.springframework.cloud</groupId>-->
         <!--    <artifactId>spring-cloud-starter-zipkin</artifactId>-->
         <!--</dependency>-->
-        <!--&lt;!&ndash;eureka-client&ndash;&gt;-->
-        <!--<dependency>-->
-        <!--    <groupId>org.springframework.cloud</groupId>-->
-        <!--    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
-        <!--</dependency>-->
+        <!--eureka-client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!--引入自定义的API模块-->
         <dependency>
             <groupId>org.example</groupId>

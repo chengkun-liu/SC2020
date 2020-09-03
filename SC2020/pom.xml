@@ -11,6 +11,11 @@
         <module>springcloud-provider-payment8001</module>
         <module>springcloud-consumer-order80</module>
         <module>springcloud-commons-api</module>
+        <module>springcloud-eureka-server7001</module>
+        <module>springcloud-eureka-server7002</module>
+        <module>springcloud-eureka-server7003</module>
+        <module>springcloud-provider-payment8002</module>
+        <module>springcloud-provider-payment8003</module>
     </modules>
 
     <!--父工程标志-->
