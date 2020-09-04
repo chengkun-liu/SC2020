@@ -18,6 +18,8 @@
         <module>springcloud-provider-payment8003</module>
         <module>springcloud-provider-payment8004</module>
         <module>springcloud-consumerzk-order80</module>
+        <module>springcloud-providerconsul-payment8005</module>
+        <module>springcloud-consumerconsul-order80</module>
     </modules>
 
     <!--父工程标志-->
