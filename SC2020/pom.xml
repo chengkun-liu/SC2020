@@ -16,6 +16,8 @@
         <module>springcloud-eureka-server7003</module>
         <module>springcloud-provider-payment8002</module>
         <module>springcloud-provider-payment8003</module>
+        <module>springcloud-provider-payment8004</module>
+        <module>springcloud-consumerzk-order80</module>
     </modules>
 
     <!--父工程标志-->
