@@ -48,4 +48,9 @@ public class PaymentController {
             return new Result<>(444,"根据"+id+"查询数据失败！"+port,null);
         }
     }
+
+    @GetMapping("/port")
+    public String portTest(){
+        return String.valueOf(port);
+    }
 }

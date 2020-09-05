@@ -10,6 +10,8 @@ import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
 /**
  * @author Roothre2
@@ -52,5 +54,15 @@ public class PaymentController {
             log.info("根据"+id+"查询数据失败！");
             return new Result<>(444,"根据"+id+"查询数据失败！"+port,null);
         }
+    }
+
+    @GetMapping("/port")
+    public String portTest(){
+        return String.valueOf(port);
+    }
+
+    public static void main(String[] args) {
+        ZonedDateTime now = ZonedDateTime.now();
+        System.out.println(now);
     }
 }
