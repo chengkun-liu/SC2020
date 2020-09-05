@@ -1,0 +1,16 @@
+# 端口
+server:
+  port: 8004
+# 微服务名称
+spring:
+  application:
+    name: springcloud-payment-service
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
+
+
+
+
+
+
